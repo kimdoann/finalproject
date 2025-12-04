@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 
 public class CamSwitch2Bar : MonoBehaviour
 {
@@ -10,8 +11,11 @@ public class CamSwitch2Bar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        VcamBar.Priority = 5;
-        VcamGraveyard.Priority = 10;
+        if (SceneManager.GetActiveScene().name != "Main Menu")
+        {
+            VcamBar.Priority = 10;
+            VcamGraveyard.Priority = 5;
+        }
     }
 
     // Update is called once per frame
