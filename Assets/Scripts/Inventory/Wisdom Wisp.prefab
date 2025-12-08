@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 2222826579398436168, guid: f9d1e4e9eeb3afa458cbf27e925164a0, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9851a0522b0eca549be9285ec7d3eebb, type: 3}
+      objectReference: {fileID: 21300000, guid: 55fd321c7f3066a4c81c25e72636de09, type: 3}
     - target: {fileID: 3241276044324670748, guid: f9d1e4e9eeb3afa458cbf27e925164a0, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -98,7 +98,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3784923968042680936, guid: f9d1e4e9eeb3afa458cbf27e925164a0, type: 3}
       propertyPath: m_Name
-      value: Mare's Tail
+      value: Wisdom Wisp
       objectReference: {fileID: 0}
     - target: {fileID: 4541209210059473255, guid: f9d1e4e9eeb3afa458cbf27e925164a0, type: 3}
       propertyPath: Name

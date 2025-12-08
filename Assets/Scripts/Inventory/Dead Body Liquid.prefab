@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: 3241276044324670748, guid: f9d1e4e9eeb3afa458cbf27e925164a0, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9851a0522b0eca549be9285ec7d3eebb, type: 3}
+      objectReference: {fileID: 21300000, guid: 942625f9f2c63a64d9fee18836093eb8, type: 3}
     - target: {fileID: 3395875631048609968, guid: f9d1e4e9eeb3afa458cbf27e925164a0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -98,7 +98,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3784923968042680936, guid: f9d1e4e9eeb3afa458cbf27e925164a0, type: 3}
       propertyPath: m_Name
-      value: Mare's Tail
+      value: Dead Body Liquid
       objectReference: {fileID: 0}
     - target: {fileID: 4541209210059473255, guid: f9d1e4e9eeb3afa458cbf27e925164a0, type: 3}
       propertyPath: Name
