@@ -95,10 +95,12 @@ public class SlotEnterActivator : MonoBehaviour
         img.preserveAspect = true;
 
         var rt = go.GetComponent<RectTransform>();
-        rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0.5f);
+        // Stretch to fill parent slot
+        rt.anchorMin = Vector2.zero;
+        rt.anchorMax = Vector2.one;
         rt.pivot = new Vector2(0.5f, 0.5f);
         rt.anchoredPosition = Vector2.zero;
-        rt.sizeDelta = Vector2.zero;
+        rt.sizeDelta = Vector2.zero; // When anchors are stretched, sizeDelta should be zero
 
         outputSlot.currentItem = go;
 
